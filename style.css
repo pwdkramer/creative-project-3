@@ -1,0 +1,40 @@
+body {
+  background-color: #2d2d2d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  font-size: 56px;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  text-align: right;
+}
+
+.diagram img {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}
+
+.buttons {
+  text-align: center;
+  padding: 25px;
+}
+
+h1 {
+  text-transform: capitalize;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="/style.css"/>
+    <title>JanKen</title>
+  </head>
+
+  <body>
+
+    <div class="header">
+      ROCK PAPER SCISSORS
+    </div>
+
+    <br><br><br>
+
+    <div id="app">
+
+      <div>
+        <h1>{{ userPick }} VS {{ randPick }}</h1>
+      </div>
+
+      <div class="buttons">
+        <button @click="choose('rock')">Rock</button>
+        <button @click="choose('paper')">Paper</button>
+        <button @click="choose('scissors')">Scissors</button>
+      </div>
+
+      <h1>{{ userScore }} - {{ computerScore }}</h1>
+
+    </div>
+
+    <div class="footer">
+      <p><a href="https://github.com/pwdkramer/creative-project-3">GitHub Repository</a></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="/script.js"></script>
+
+  </body>
+
+</html>
